@@ -45,7 +45,7 @@ public class LuckyDice {
         // lucky dice app
         System.out.print("How many faces on a dice? ");
         int faces = scan.nextInt();
-        System.out.println("How many simulations do you want to run?");
+        System.out.println("How many simulations do you want to run? ");
         int simulations = scan.nextInt();
         System.out.print("What is the total number you would like to roll for? ");
         int max = scan.nextInt();
