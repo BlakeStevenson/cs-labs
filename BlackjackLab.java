@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class main {
+public class BlackjackLab {
     public static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
         apples();
