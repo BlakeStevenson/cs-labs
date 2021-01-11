@@ -18,15 +18,15 @@ public class Citation
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
-        out.println("Enter the author's name as 'Last name, First name':");
+        out.println("Enter the author's name as 'Last name, First name': ");
         String authorName = in.nextLine();
-        out.println("Enter the title of the book:");
+        out.println("Enter the title of the book: ");
         String bookTitle = in.nextLine();
-        out.println("Enter the publisher of the book:");
+        out.println("Enter the publisher of the book: ");
         String publisherName = in.nextLine();
-        out.println("Enter the year the book was published:");
+        out.println("Enter the year the book was published: ");
         String yearPublished = in.nextLine();
         out.println(authorName + ". " + bookTitle + ".");
-        out.println(publisherName + ", " + yearPublished);
+        out.println(publisherName + ", " + yearPublished + ".");
     }
 }
